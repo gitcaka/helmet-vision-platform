@@ -2,6 +2,8 @@
 
 Vue 3 + Vuetify 前端，提供登录、大屏统计、多画面监控、记录分析和管理员演示页面。项目支持“示例数据”和“真实后端”两种模式，页面代码无需切换分支。
 
+在线示例数据演示：https://gitcaka.github.io/helmet-vision-platform/
+
 ## 环境要求
 
 - Node.js 20.19 或更高版本

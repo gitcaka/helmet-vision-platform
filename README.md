@@ -2,6 +2,14 @@
 
 非机动车头盔佩戴智能检测平台，前后端统一位于 `E:\work\helmet-vision-platform`，并作为一个 Git 仓库维护。
 
+## 在线演示
+
+GitHub Pages 部署前端示例数据模式，不依赖 Flask、SQLite 或摄像头：
+
+https://gitcaka.github.io/helmet-vision-platform/
+
+每次推送 `main` 分支后，`.github/workflows/pages.yml` 会自动构建并发布前端。GitHub Pages 仅托管静态页面，真实后端和视频流仍需按下文在本地或服务器单独部署。
+
 ```text
 E:\work\helmet-vision-platform\
 ├─ backend\     Flask、SQLite、Socket.IO、RTSP 转 MJPEG

@@ -8,6 +8,8 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // GitHub Pages 通过 VITE_BASE_PATH 注入仓库子路径；本地开发仍使用根路径。
+  base: process.env.VITE_BASE_PATH || '/',
   plugins: [
     Vue({
       template: { transformAssetUrls },
